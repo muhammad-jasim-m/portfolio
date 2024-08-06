@@ -78,7 +78,7 @@ const Intro = () => {
           <FloatinDiv img={thumbup} text1="Best Design" text2="Award" />
         </motion.div>
 
-        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+{/*  
         <div
           className="blur"
           style={{
@@ -88,7 +88,7 @@ const Intro = () => {
             height: "11rem",
             left: "-9rem",
           }}
-        ></div>
+        ></div> */}
       </div>
     </div>
   );
