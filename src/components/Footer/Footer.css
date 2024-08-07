@@ -12,13 +12,17 @@
   justify-content: center;
   flex-direction: column;
   width: 100%;
-  margin-top: 4rem;
+  margin-top: 6rem;
   gap: 4rem;
   color: white;
 }
 .f-icons {
   display: flex;
   gap: 2rem;
+}
+
+.githubimg{
+  width: 50px;
 }
 
 @media screen and (max-width: 480px){
