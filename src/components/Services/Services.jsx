@@ -40,9 +40,11 @@ const Services = () => {
         <span style={{ color: darkMode ? "white" : "" }}>My Awesome</span>
         <span>services</span>
         <spane>
-          Lorem ispum is simpley dummy text of printing of printing Lorem
+        I bring ideas to life with clean, responsive, and visually engaging web designs.
           <br />
-          ispum is simpley dummy text of printing
+          Specializing in modern frontend development, <br />
+           I create intuitive UI/UX experiences  and   optimized <br />
+           high-performance web applications <br />  using technologies like React.js.
         </spane>
         <a href={Resume} download>
           <button className="button s-button">Download CV</button>
@@ -51,8 +53,8 @@ const Services = () => {
       {/* right */}
       <div className="cards">
         <motion.div
-          initial={{ left: "15rem" }}
-          whileInView={{ left: "20rem" }}
+          initial={{ left: "13rem" }}
+          whileInView={{ left: "20rem"  }}
           transition={transition}
         >
           <Card

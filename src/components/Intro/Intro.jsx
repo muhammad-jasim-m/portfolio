@@ -38,6 +38,8 @@ const Intro = () => {
           <button className="button i-button">Hire me</button>
         </Link>
         {/* social icons */}
+
+
         <div className="i-icons">
           <a href="https://github.com/kashanafzl" target="_blank" rel="noopener noreferrer">
             <img src={Github} alt="" />
@@ -46,9 +48,14 @@ const Intro = () => {
           <a href="   https://www.linkedin.com/in/kashan-afzal/" target="_blank" rel="noopener noreferrer">
             <img src={LinkedIn} alt="" />
           </a>
-          <img src={Instagram} alt="" />
+          <a href="https://wa.me/923139614220" target="_blank" rel="noopener noreferrer">
+            <img src={Instagram} alt="Instagram" />
+          </a>
+
         </div>
       </div>
+
+
       {/* right image side */}
       <div className="i-right">
         {/* <img src={Vector1} alt="" />
