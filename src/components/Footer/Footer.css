@@ -29,4 +29,11 @@
   .f-content{
     transform: scale(.5);
   }
+
+  .f-icons {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+
 }

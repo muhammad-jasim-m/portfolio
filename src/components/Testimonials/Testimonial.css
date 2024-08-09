@@ -34,11 +34,11 @@
     align-items: center;
     justify-content: space-evenly;
     padding: 2rem;
-    width: 30rem;
-    height: 12rem;
+    width: 25rem;
+    height: 14rem;
     /* styles same as work.css */
     /* background: rgba(255, 255, 255, 0.26); */
-    border: 7px solid var(--blueCard);
+    border: 3px solid #d3b5ed;
     box-shadow: var(--boxShadow);
     border-radius: 20px;
 }
@@ -49,6 +49,8 @@
 }
 .testimonial>span{
     color: var(--gray);
+    font-size: 14px;
+    padding-top: 1rem;
 }
 
 
@@ -63,6 +65,15 @@
     align-items: center;
     justify-content: center;
 }
+
+#testimonialslides .swiper-slide {
+    flex-shrink: 0;
+    width: 100% !important;
+    height: 100%;
+    position: relative;
+    transition-property: transform;
+  }
+
 
 .t-wrapper .swiper-pagination-bullet-active{
     background: var(--orange);

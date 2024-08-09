@@ -42,10 +42,12 @@ const Testimonial = () => {
       <div className="blur t-blur2" style={{ background: "skyblue" }}></div> */}
 
       </div>
-      <Swiper
+      <Swiper id="testimonialslides"
         // install Swiper modules
         modules={[Pagination]}
-        slidesPerView={1}
+
+        grabCursor={true}
+        loop={true}
         pagination={{ clickable: true }}
       >
         {clients.map((client, index) => {

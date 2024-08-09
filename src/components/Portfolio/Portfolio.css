@@ -32,9 +32,30 @@
 .portfolio-slider .swiper-slide {
   width: 20rem;
 }
+
+.swiper-slide {
+  flex-shrink: 0;
+  width: 48% !important;
+  height: 100%;
+  position: relative;
+  transition-property: transform;
+}
+
+
 .portfolio img {
-  width: 19rem;
+  width: 33rem;
   filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
   border-radius: 19px;
 }
-
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 20px;
+  background-color: var(--orange);
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+  z-index: 1000;
+}
