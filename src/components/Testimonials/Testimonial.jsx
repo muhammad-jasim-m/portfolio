@@ -5,7 +5,7 @@ import "swiper/css";
 
 import { Pagination } from "swiper";
 import "swiper/css/pagination";
-import profilePic1 from "../../img/profile4.jpg";
+import profilePic1 from "../../img/my.jpg";
 
 
 const Testimonial = () => {

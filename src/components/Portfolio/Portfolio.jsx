@@ -5,6 +5,7 @@ import "swiper/css";
 import Sidebar from "../../img/p1.png";
 import Ecommerce from "../../img/p3.png";
 import HOC from "../../img/p5.png";
+import p10 from "../../img/p10.png";
 import MusicApp from "../../img/p7.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion"; // Import Framer Motion
@@ -75,28 +76,28 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
 
-        
-<SwiperSlide>
+
+        <SwiperSlide>
           <a href="https://kashanafzl.github.io/J_business/" target="_blank" rel="noopener noreferrer">
-          <div className="slide-content">
-            <motion.img
-              src={Ecommerce}
-              alt=""
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={transition}
-            />
-            {showClickMe && (
-              <motion.span
-                className="click-me"
-                variants={clickMeVariants}
-                initial="initial"
-                animate="animate"
-              >
-                Click Me
-              </motion.span>
-            )}
-          </div>
+            <div className="slide-content">
+              <motion.img
+                src={Ecommerce}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
           </a>
 
         </SwiperSlide>
@@ -106,30 +107,55 @@ const Portfolio = () => {
 
         <SwiperSlide>
           <a href="https://collabways.com/" target="_blank" rel="noopener noreferrer">
-          <div className="slide-content">
-            <motion.img
-              src={MusicApp}
-              alt=""
-              initial={{ opacity: 0, scale: 0.8 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              transition={transition}
-            />
-            {showClickMe && (
-              <motion.span
-                className="click-me"
-                variants={clickMeVariants}
-                initial="initial"
-                animate="animate"
-              >
-                Click Me
-              </motion.span>
-            )}
-          </div>
+            <div className="slide-content">
+              <motion.img
+                src={MusicApp}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
           </a>
         </SwiperSlide>
 
 
-                
+        <SwiperSlide>
+          <a href="https://kashanafzl.github.io/Japan3_Industry/" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={p10}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
+
+
+
         <SwiperSlide>
           <a
             href="https://kashanafzl.github.io/Shruh/User-Management.html"
@@ -158,7 +184,7 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
 
-        
+
 
 
 
