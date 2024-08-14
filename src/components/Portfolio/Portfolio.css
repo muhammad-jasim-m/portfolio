@@ -130,3 +130,17 @@
   pointer-events: none;
   z-index: 10;
 }
+
+
+@media screen and (max-width: 480px){
+  .click-me {
+  
+    padding: 5px 15px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+
+  }
+  
+
+
+}

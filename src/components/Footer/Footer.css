@@ -25,19 +25,6 @@
   width: 50px;
 }
 
-@media screen and (max-width: 480px){
-  .f-content{
-    transform: scale(.5);
-  }
-
-  .f-icons {
-    display: flex;
-    gap: 2rem;
-    padding-bottom: 3rem;
-}
-
-}
-
 
 .scroll-to-top {
   position: fixed;
@@ -58,3 +45,31 @@
   background-color: #6b4beb; /* Darker color on hover */
   transform: scale(1.1);
 }
+
+
+@media screen and (max-width: 480px){
+  .f-content{
+    transform: scale(.5);
+  }
+
+  .f-icons {
+    display: flex;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #8570dc;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 8px 17px;
+  cursor: pointer;
+  font-size: 28px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, transform 0.3s;
+}
+}
+
