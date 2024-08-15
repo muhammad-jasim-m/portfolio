@@ -14,13 +14,14 @@ const Testimonial = () => {
     {
       img: profilePic1,
       review:
-        "I’m extremely happy with Kashan’s work. He’s a skilled developer who delivered on time and exceeded expectations. His expertise made the process smooth and efficient. I look forward to working with him again.",
+
+        "As someone who knows Kashan, I’m impressed by his web development and design skills. His work is top-notch, with exceptional quality and attention to detail. If you're looking for someone who truly excels, Kashan is your top choice.",
     },
     
     {
       img: profilePic2,
       review:
-        "As someone who knows Kashan, I’m impressed by his web development and design skills. His work is top-notch, with exceptional quality and attention to detail. If you're looking for someone who truly excels, Kashan is your top choice.",
+        "I’m extremely happy with Kashan’s work. He’s a skilled developer who delivered on time and exceeded expectations. His expertise made the process smooth and efficient. I look forward to working with him again.",
     },
     
   ];

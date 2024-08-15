@@ -135,12 +135,35 @@
 @media screen and (max-width: 480px){
   .click-me {
   
-    padding: 5px 15px;
+    padding: 3px 10px;
     font-size: 14px !important;
     font-weight: 400 !important;
 
   }
+  .portfolio img {
+    width: 20rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+}
+
+
+}
+
+
+
+@media screen and (max-width: 400px){
+  .click-me {
   
+    padding: 3px 10px;
+    font-size: 14px !important;
+    font-weight: 400 !important;
+
+  }
+  .portfolio img {
+    width: 16rem;
+    filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
+    border-radius: 19px;
+}
 
 
 }
