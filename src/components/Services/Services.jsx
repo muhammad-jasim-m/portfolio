@@ -7,7 +7,7 @@ import Resume from './resume.pdf';
 import d1 from '../../img/d3p.png';
 import d3 from '../../img/d5p.png';
 import d5 from '../../img/d2p.png';
-import AnimatedPopup from '../Animatedpopup/Animaterd'; // Import the AnimatedPopup component
+
 
 const Services = () => {
   // context
@@ -61,11 +61,7 @@ const Services = () => {
             emoji={d1}
             heading={"Design"}
             detail={"Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd"}
-            onClick={() => handleCardClick({
-              heading: "Design",
-              detail: "Figma, Sketch, Photoshop, Adobe Illustrator, Adobe xd",
-              image: d1
-            })}
+       
           />
         </motion.div>
         <motion.div
@@ -77,11 +73,7 @@ const Services = () => {
             emoji={d3}
             heading={"Developer"}
             detail={"Html, Css, JavaScript, React, Nodejs, Express"}
-            onClick={() => handleCardClick({
-              heading: "Developer",
-              detail: "Html, Css, JavaScript, React, Nodejs, Express",
-              image: d3
-            })}
+       
           />
         </motion.div>
         <motion.div
@@ -93,16 +85,11 @@ const Services = () => {
             emoji={d5}
             heading={"UI/UX"}
             detail={"I implement UI/UX designs, creating intuitive and user-friendly interfaces."}
-            onClick={() => handleCardClick({
-              heading: "UI/UX",
-              detail: "I implement UI/UX designs, creating intuitive and user-friendly interfaces.",
-              image: d5
-            })}
+           
           />
         </motion.div>
       </div>
 
-      {popupContent && <AnimatedPopup content={popupContent} onClose={closePopup} />}
     </div>
   );
 };
