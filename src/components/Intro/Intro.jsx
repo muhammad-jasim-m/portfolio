@@ -28,27 +28,27 @@ const Intro = () => {
         <div className="i-name">
           {/* yahan change hy darkmode ka */}
           <span style={{ color: darkMode ? "white" : "" }}>Hi! I Am</span>
-          <span>Kashan Afzal</span>
+          <span>Muhammad Jasim Muhammad</span>
           <span>
             Frontend Developer with high level of experience in web designing
             and development, producting the Quality work
           </span>
         </div>
-        <Link to="contact" smooth={true} spy={true}>
-          <button className="button i-button">Hire me</button>
-        </Link>
+        {/* <Link to="contact" smooth={true} spy={true}> */}
+        <a href="../../img/jasimcv.pdf" download > <button className="button i-button">Download CV</button></a>
+        {/* </Link> */}
         {/* social icons */}
 
 
         <div className="i-icons">
-          <a href="https://github.com/kashanafzl" target="_blank" rel="noopener noreferrer">
+          <a href="https://github.com/M-Jasim-M" target="_blank" rel="noopener noreferrer">
             <img src={Github} alt="" />
           </a>
 
-          <a href="   https://www.linkedin.com/in/kashan-afzal/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/mjasimm/" target="_blank" rel="noopener noreferrer">
             <img src={LinkedIn} alt="" />
           </a>
-          <a href="https://wa.me/923139614220" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/92310971335" target="_blank" rel="noopener noreferrer">
             <img src={Instagram} alt="Instagram" />
           </a>
 

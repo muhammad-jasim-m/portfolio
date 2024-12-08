@@ -3,7 +3,7 @@ import "./Services.css";
 import Card from "../Card/Card";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import Resume from './resume.pdf';
+import Resume from '../../img/jasimcv.pdf';
 import d1 from '../../img/d3p.png';
 import d3 from '../../img/d5p.png';
 import d5 from '../../img/d2p.png';

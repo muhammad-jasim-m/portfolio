@@ -29,16 +29,16 @@ const Footer = () => {
     <div className="footer">
       <img src={Wave} alt="" style={{ width: "105%" , marginLeft : '-3rem' }} />
       <div className="f-content">
-        <span>kashanafzal2221@gmail.com</span>
+        <span>jasimdev200@gmail.com</span>
         <div className="f-icons">
-        <a href="https://github.com/kashanafzl" target="_blank" rel="noopener noreferrer">
+        <a href="https://github.com/M-Jasim-M" target="_blank" rel="noopener noreferrer">
             <img className="githubimg" src={Github} alt="" />
           </a>
 
-          <a href="   https://www.linkedin.com/in/kashan-afzal/" target="_blank" rel="noopener noreferrer">
+          <a href="https://www.linkedin.com/in/mjasimm/" target="_blank" rel="noopener noreferrer">
             <img className="githubimg" src={LinkedIn} alt="" />
           </a>
-          <a href="https://wa.me/923139614220" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/92310971335" target="_blank" rel="noopener noreferrer">
           <img className="githubimg" src={Instagram} alt="" />
           </a>
         </div>

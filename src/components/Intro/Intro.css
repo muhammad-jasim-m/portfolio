@@ -35,9 +35,14 @@
   margin-top: 10px;
 }
 .i-button {
-  width: 9rem;
-  height: 2.5rem;
-}.i-icons {
+  width: 10rem;
+}
+.i-button a{
+text-decoration: none;
+font-size: 16px;
+z-index: 9;
+}
+.i-icons {
   margin-top: 3rem;
   display: flex;
   gap: 0rem;
