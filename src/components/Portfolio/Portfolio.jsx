@@ -3,10 +3,12 @@ import "./Portfolio.css";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/p1.png";
-import Ecommerce from "../../img/p3.png";
-import HOC from "../../img/p5.png";
-import p10 from "../../img/p10.png";
+import Ecommerce from "../../img/Sign-Up.png";
+import HOC from "../../img/main screen Desktop.png";
+import p10 from "../../img/Dashboard (1).png";
 import MusicApp from "../../img/p7.png";
+import mazen from '../../img/mazen.png';
+import goldenddream from "../../img/goldendream.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion"; // Import Framer Motion
 
@@ -28,7 +30,7 @@ const Portfolio = () => {
         if (entries[0].isIntersecting) {
           setShowClickMe(true);
           setTimeout(() => {
-            setShowClickMe(false); // Hide "Click Me" after 3 seconds
+            setShowClickMe(true); // Hide "Click Me" after 3 seconds
           }, 3000);
         }
       },
@@ -76,12 +78,11 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
 
-
-        <SwiperSlide>
-          <a href="https://kashanafzl.github.io/J_business/" target="_blank" rel="noopener noreferrer">
+<SwiperSlide>
+          <a href="https://mazen.tv/" target="_blank" rel="noopener noreferrer">
             <div className="slide-content">
               <motion.img
-                src={Ecommerce}
+                src={mazen}
                 alt=""
                 initial={{ opacity: 0, scale: 0.8 }}
                 whileInView={{ opacity: 1, scale: 1 }}
@@ -99,10 +100,31 @@ const Portfolio = () => {
               )}
             </div>
           </a>
-
         </SwiperSlide>
 
-
+        <SwiperSlide>
+          <a href="https://goldendreamtravel.ae/" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={goldenddream}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Click Me
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
 
 
         <SwiperSlide>
@@ -128,33 +150,6 @@ const Portfolio = () => {
             </div>
           </a>
         </SwiperSlide>
-
-
-        <SwiperSlide>
-          <a href="https://kashanafzl.github.io/Japan3_Industry/" target="_blank" rel="noopener noreferrer">
-            <div className="slide-content">
-              <motion.img
-                src={p10}
-                alt=""
-                initial={{ opacity: 0, scale: 0.8 }}
-                whileInView={{ opacity: 1, scale: 1 }}
-                transition={transition}
-              />
-              {showClickMe && (
-                <motion.span
-                  className="click-me"
-                  variants={clickMeVariants}
-                  initial="initial"
-                  animate="animate"
-                >
-                  Click Me
-                </motion.span>
-              )}
-            </div>
-          </a>
-        </SwiperSlide>
-
-
 
         <SwiperSlide>
           <a
@@ -184,6 +179,65 @@ const Portfolio = () => {
           </a>
         </SwiperSlide>
 
+        <SwiperSlide>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={Ecommerce}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                  Not Hosted Yet
+                </motion.span>
+              )}
+            </div>
+          </a>
+
+        </SwiperSlide>
+
+
+
+
+    
+
+
+        <SwiperSlide>
+          <a href="" target="_blank" rel="noopener noreferrer">
+            <div className="slide-content">
+              <motion.img
+                src={p10}
+                alt=""
+                initial={{ opacity: 0, scale: 0.8 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={transition}
+              />
+              {showClickMe && (
+                <motion.span
+                  className="click-me"
+                  variants={clickMeVariants}
+                  initial="initial"
+                  animate="animate"
+                >
+                 Not Hosted Yet
+                </motion.span>
+              )}
+            </div>
+          </a>
+        </SwiperSlide>
+
+
+
+     
+
 
 
 
@@ -204,7 +258,7 @@ const Portfolio = () => {
                 initial="initial"
                 animate="animate"
               >
-                Click Me
+              Not Hosted Yet
               </motion.span>
             )}
           </div>
