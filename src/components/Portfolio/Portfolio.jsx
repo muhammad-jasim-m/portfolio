@@ -71,12 +71,22 @@ const Portfolio = () => {
 
       {/* slider */}
       <Swiper
-        spaceBetween={30}
-        slidesPerView={2}
-        grabCursor={true}
-        loop={true}
-        className="portfolio-slider"
-      >
+  grabCursor={true}
+  loop={true}
+  className="portfolio-slider"
+  spaceBetween={30}
+  breakpoints={{
+    320: {
+      slidesPerView: 1, // Show 1 slide on small screens
+    },
+    768: {
+      slidesPerView: 2, // Show 2 slides on medium screens
+    },
+    1024: {
+      slidesPerView: 3, // Show 3 slides on large screens
+    },
+  }}
+>
 
 <SwiperSlide>
           <a href="https://mazen.tv/" target="_blank" rel="noopener noreferrer">

@@ -142,7 +142,7 @@
 
   }
   .portfolio img {
-    width: 20rem;
+    width: 90%;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
 }
@@ -152,7 +152,7 @@
 
 
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 440px){
   .click-me {
   
     padding: 3px 10px;
@@ -160,8 +160,12 @@
     font-weight: 400 !important;
 
   }
+  .swiper-slide {
+    width: 100% !important;
+  }
+
   .portfolio img {
-    width: 16rem;
+    width: 100%;
     filter: drop-shadow(-12px 15px 13px rgba(0, 0, 0, 0.25));
     border-radius: 19px;
 }
