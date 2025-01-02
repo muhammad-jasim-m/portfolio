@@ -119,13 +119,14 @@ z-index: 9;
 @media screen and (max-width: 480px) {
   .Intro {
     flex-direction: column;
-    gap: 7rem;
-    height: 70rem;
+    /* gap: 7rem; */
+    height: 60rem;
+    margin-top:3rem;
   }
 
   .i-right > :nth-child(1) {
-    height: 605px;
-    width: 715px;
+    height: 696px;
+    width: 790px;
     transform: scale(0.7);
     left: -25%;
     top: -29%;
@@ -153,5 +154,8 @@ z-index: 9;
     position: relative;
 }
 
+.i-icons{
+  margin-top: 1rem;
+}
 
 }
