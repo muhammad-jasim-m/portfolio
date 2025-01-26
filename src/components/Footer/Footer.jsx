@@ -38,7 +38,7 @@ const Footer = () => {
           <a href="https://www.linkedin.com/in/mjasimm/" target="_blank" rel="noopener noreferrer">
             <img className="githubimg" src={LinkedIn} alt="" />
           </a>
-          <a href="https://wa.me/+92310971335" target="_blank" rel="noopener noreferrer">
+          <a href="https://wa.me/+923109671335" target="_blank" rel="noopener noreferrer">
           <img className="githubimg" src={Instagram} alt="" />
           </a>
         </div>
